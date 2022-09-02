@@ -9,7 +9,7 @@ const AddQuest = () =>{
 };
 
 const MinuQuest = () =>{
-    if(ListQuestions.value >-1)
+    if(ListQuestions.value >0)
         return ListQuestions.value = ListQuestions.value - 1
 };
 

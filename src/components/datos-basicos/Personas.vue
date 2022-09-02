@@ -245,7 +245,6 @@
 </template>
 
 <script>
-import axios from "axios";
 
 var url = "https://dynamicliveconversationapi.azurewebsites.net/";
 export default {

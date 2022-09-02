@@ -92,6 +92,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "Registro Personas"  */ '../views/encuestras-views/Creacion-EncuestaWiew'),
     meta: { requiredAuth: false }
   },
+  {
+    path: '/datos-basicos/preguntas',
+    name: 'Preguntas',
+    component: () => import('../views/Preguntas.vue')
+  }
    /*
   {
     path: '/encuesta/creacion-preguntas',

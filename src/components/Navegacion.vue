@@ -81,6 +81,11 @@ export default {
             submenuname: "Rol",
             submenuicon: "mdi-gender-male-female",
             submenulink: "/datos-basicos/rol",
+          },
+          {
+            submenuname: "Preguntas",
+            submenuicon: "mdi-gender-male-female",
+            submenulink: "/datos-basicos/preguntas",
           }
         ],
       },

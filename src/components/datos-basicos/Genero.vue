@@ -113,7 +113,7 @@
 <script>
 import axios from "axios";
 
-var url = "https://dynamicliveconversationapi.azurewebsites.net/";
+var url = "https://localhost:7008/";
 export default {
   data: () => ({
     search: "",

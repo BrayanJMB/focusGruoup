@@ -6,9 +6,6 @@
                 <input type="file" @change="onFileUpload">
             </div>
             <div class="form-group">
-                <input type="text" v-model="name" placeholder="Name" class="form-control">
-            </div>
-            <div class="form-group">
                 <button class="btn btn-primary btn-block btn-lg">Upload File</button>
             </div>
         </form>
@@ -33,8 +30,7 @@ export default {
         onSubmit() {
           // upload file
           const formData = new FormData()
-          formData.append('avatar', this.FILE, this.FILE.name)
-          formData.append('name', this.name)
+          formData.append('postedFile', this.FILE, this.FILE.name)
           debugger;
           axios.post(url + "api/OnasSurvey", formData, {
              headers: {

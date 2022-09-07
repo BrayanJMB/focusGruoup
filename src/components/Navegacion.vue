@@ -161,6 +161,19 @@ export default {
         ],
       },
       {
+        name: "Onas",
+        icon: "mdi-comment-question-outline",
+        link: "/",
+        vista: false,
+        datasubmenu: [
+          {
+            submenuname: "Envio email",
+            submenuicon: "mdi-gender-male-female",
+            submenulink: "/onas/email",
+          }
+        ],
+      },
+      {
         name: "Sala",
         icon: "mdi-wechat",
         link: "registrar",

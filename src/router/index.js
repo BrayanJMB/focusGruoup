@@ -92,6 +92,13 @@ const routes = [
     component: () => import(/* webpackChunkName: "Registro Personas"  */ '../views/encuestras-views/Creacion-EncuestaWiew'),
     meta: { requiredAuth: false }
   },
+
+  {
+    path: '/onas/email',
+    name: 'Envia Email',
+    component: () => import(/* webpackChunkName: "Registro Personas"  */ '../views/OnasEmailView'),
+    meta: { requiredAuth: false }
+  },
    /*
   {
     path: '/encuesta/creacion-preguntas',

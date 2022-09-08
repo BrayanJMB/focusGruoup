@@ -74,101 +74,91 @@ export default {
           },
           {
             submenuname: "Compañia",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-domain",
             submenulink: "/datos-basicos/company",
           },
           {
             submenuname: "Rol",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-account-question",
             submenulink: "/datos-basicos/rol",
           }
         ],
       },
       {
         name: "Encuestas Dinamicas",
-        icon: "mdi-comment-question-outline",
+        icon: "mdi-clipboard-edit-outline",
         link: "/",
         vista: false,
         datasubmenu: [
           {
             submenuname: "Moderador",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-account-tie",
             submenulink: "/datos-basicos/secciones",
           },
           {
             submenuname: "Invitados",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-account-multiple",
             submenulink: "/datos-basicos/invitados",
           },
           {
             submenuname: "Categorias",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-clipboard-list",
             submenulink: "/datos-basicos/categorias",
           },
           {
             submenuname: "Encuesta",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-clipboard-edit-outline",
             submenulink: "/datos-basicos/encuestas",
           },
           {
             submenuname: "Seccion Encuesta",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-clipboard-edit-outline",
             submenulink: "/datos-basicos/seccion-encuestas",
-          },
-          {
-            submenuname: "Encuestaaaas",
-            submenuicon: "mdi-gender-male-female",
-            submenulink: "/encuesta/creacion-encuesta",
-          },
-          {
-            submenuname: "Sala",
-            submenuicon: "mdi-gender-male-female",
-            submenulink: "/datos-basicos/secciones",
-          },
+          }
         ],
       },
       {
         name: "Encuestas Programadas",
-        icon: "mdi-comment-question-outline",
+        icon: "mdi-clipboard-edit-outline",
         link: "/",
         vista: false,
         datasubmenu: [
           {
             submenuname: "Moderador",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-account-tie",
             submenulink: "/datos-basicos/secciones",
           },
           {
             submenuname: "Invitados",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-account-multiple",
             submenulink: "/datos-basicos/invitados",
           },
           {
             submenuname: "Categorias",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-clipboard-list",
             submenulink: "/datos-basicos/categorias",
           },
           {
             submenuname: "Encuesta",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-clipboard-edit-outline",
             submenulink: "/datos-basicos/encuestas",
           },
           {
             submenuname: "Seccion Encuesta",
-            submenuicon: "mdi-gender-male-female",
-            submenulink: "/datos-basicos/seccion-encuesta",
+            submenuicon: "mdi-clipboard-edit-outline",
+            submenulink: "/datos-basicos/seccion-encuestas",
           }
         ],
       },
       {
         name: "Onas",
-        icon: "mdi-comment-question-outline",
+        icon: "mdi-account-supervisor",
         link: "/",
         vista: false,
         datasubmenu: [
           {
             submenuname: "Envio email",
-            submenuicon: "mdi-gender-male-female",
+            submenuicon: "mdi-email-fast",
             submenulink: "/onas/email",
           }
         ],
@@ -180,15 +170,10 @@ export default {
         vista: false,
         datasubmenu: [
           {
-            submenuname: "Personas",
-            submenuicon: "mdi-account-supervisor-circle-outline",
+            submenuname: "Sala",
+            submenuicon: "mdi-chat",
             submenulink: "/datos-basicos/personas",
-          },
-          {
-            submenuname: "Personas",
-            submenuicon: "mdi-account-supervisor-circle-outline",
-            submenulink: "/datos-basicos/personas",
-          },
+          }
         ],
       },  
       {

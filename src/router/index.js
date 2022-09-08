@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
-import Login from '../views/Login/LoginView'
+import Login from '../views/DashboardView'
 import store from '../store/index'
 
 Vue.use(VueRouter)
@@ -9,7 +9,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'dashborad',
     component: Login,
     meta: { requiredAuth: false }
   },
@@ -37,12 +37,13 @@ const routes = [
     component: () => import(/* webpackChunkName: "Registro Empresa" */ '../views/RegistroEmpresaView.vue'),
     meta: { requiredAuth: false }
   },
+  /*
   {
     path: '/dashboard',
     name: 'dashboard',
-    component: () => import(/* webpackChunkName: "dashboard" */ '../views/DashboardView.vue'),
+    component: () => import(/* webpackChunkName: "dashboard"  '../views/DashboardView.vue'),
     meta: { requiredAuth: false }
-  },
+  }*/,
   {
     path: '/datos-basicos/personas',
     name: 'Personas',

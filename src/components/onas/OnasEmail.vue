@@ -42,8 +42,6 @@ export default {
           this.FILE = files
         },
         onSubmit() {
-          // upload file
-          alert("ok")
           const formData = new FormData()
           formData.append('postedFile', this.FILE, this.FILE.name)
           debugger;

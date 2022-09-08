@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'peopleintelligence'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_72730FC8917E4F32B7DC32EE3F27A0AE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DCB1348A76764771965082BDAE6E50E4 }}
           package: .

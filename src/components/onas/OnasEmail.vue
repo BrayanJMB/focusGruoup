@@ -29,7 +29,7 @@
 
 <script>
 import axios from "axios";
-const url = "https://localhost:7008/"
+const url = "https://dynamicliveconversationapi.azurewebsites.net/"
 export default {
   data() {
       return {
@@ -38,10 +38,10 @@ export default {
     },
     methods: {
         onFileUpload (files) {
-          console.log(files)
           this.FILE = files
         },
         onSubmit() {
+
           const formData = new FormData()
           formData.append('postedFile', this.FILE, this.FILE.name)
           debugger;

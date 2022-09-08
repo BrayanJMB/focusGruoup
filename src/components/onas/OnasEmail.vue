@@ -29,7 +29,7 @@
 
 <script>
 import axios from "axios";
-const url = "https://dynamicliveconversationapi.azurewebsites.net/"
+const url = "https://localhost:7008/"
 export default {
   data() {
       return {
